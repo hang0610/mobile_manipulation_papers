@@ -1,20 +1,20 @@
 ## Mobile Manipulation: Papers
+Mobile Manipulation (**MM**) lies at the intersection of mobile robots (e.g., wheeled, legged, and aerial robots) and manipulation (e.g., dual arm, single arm, etc.). However, robotic researchers predominantly concentrate on wheeled or legged robots equipped with a single arm, primarily due to the control complexity associated with aerial robots and dual-arm systems.
 
-Mobile Manipulation (**MM**) lies in the intersection of mobile robots (e.g. wheeled, legged and aerial robots) and manipulation (e.g. dual arm, single arm, etc.). However, robotic researchers mainly focus on the wheeled or legged robots mounted with a single arm, because of the controlling complexity of aerial robots and the dual arm.
+The primary challenge in **MM** is to coordinate the mobility and manipulation to address long-horizon and generalized tasks, which are inherently more challenging than stationary manipulation. Specifically, the objective is to enable robots to navigate within a clustered environment while concurrently interacting with the surroundings using their manipulator. Currently, the overall strategies to achieve this can be categorized into **Hierarchical** (i.e., addressing the base and manipulator separately) and **Whole-body** (i.e., addressing the base and manipulator simultaneously) motion planning and control. Both approaches encounter distinct challenges, as well as some shared obstacles that need to be addressed.
 
-The key challenge in **MM** is to coordinate the mobility and manipulation to solve long-horizon and generalized tasks, which are more difficult than stationary manipulation. Specifically, we need to enable the robots to navigate in a clustered environment while interacting with the environment with its manipulator. So far, the overall strategies to achieve this can be divided into **Hierarchical** (i.e. deal with the base and manipulator *separately*) and **Whole-body** (i.e. deal with the base and manipulator *simultaneously*) motion planning and control, both of which have some respective and common difficulties to be overcome. 
-
+Challenges include:
 1. Understanding the unstructured environment;
 2. Obstacle avoidance and self-collision avoidance;
-3. Guaranteeing graspability for the target object;
+3. Ensuring graspability for the target object;
 4. Hands-off errors within the skill chaining in a long-horizon task (Hierarchical);
-5. Skill coordination in a complex task needing multiple skills at the same time(Hierarchical);
-6. High controlling complexity due to high DOF (Whole-body);
-7. ......
+5. Skill coordination in a complex task requiring multiple skills simultaneously (Hierarchical);
+6. High controlling complexity due to a high degree of freedom (Whole-body);
+7. ...
 
-In addition, no matter what strategy we choose, we have the following methods to realize it: **Classical** (e.g model predictive control),  **Learning-Based** (e.g. reinforcement learning, imitation learning, large language models) and **Learning + Classical**. Among these methods, learning-based methods excel because of its generality and high efficiency when facing complex tasks which are hard to model. Thus, I will mainly focus on the learning-based method here. Moreover, to encourage the development of **MM** community, researchers have proposed some **Benchmarks** and **Challenges**, which provide us convenient platforms to develop our custom algorithms and standard metrics for evaluation.
+Regardless of the chosen strategy, there are various methods to implement it: **Classical** methods (e.g., model predictive control), **Learning-Based** methods (e.g., reinforcement learning, imitation learning, large language models), and **Learning + Classical** methods. **Learning-Based** methods, in particular, stand out due to their generality and efficiency in tackling complex tasks that are challenging to model accurately. Consequently, the focus here will primarily be on learning-based methods. Additionally, to encourage the development of the **MM** community, researchers have proposed some **Benchmarks** and **Challenges** that offer convenient platforms for the development of custom algorithms and standard metrics for evaluation.
 
-In this repository, I summarize all the strategies, methods, benchmarks and challenges above with the papers I have read. For some paper related to **Learning-Based MM**, I will briefly introduce its motivation, core idea, and method. The links of these papers and codes (if open-sourced) are also provided. Here is the table of contents.
+In this repository, I summarize all the aforementioned strategies, methods, benchmarks, and challenges, along with the papers I have read. For some papers related to **Learning-Based MM**, I will provide brief introductions to their core ideas, and methodologies. Links to these papers and codes (if open-sourced) are also included. The table of contents is outlined below.
 
 - [Mobile Manipulation: Papers](#mobile-manipulation-papers)
 - [0. Review](#0-review)
