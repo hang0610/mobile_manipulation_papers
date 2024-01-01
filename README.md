@@ -24,6 +24,7 @@ In this repository, I summarize all the aforementioned strategies, methods, benc
   - [3.1 Hierarchical RL](#31-hierarchical-rl)
   - [3.2 Whole-body RL](#32-whole-body-rl)
   - [3.3 RL+Priors](#33-rlpriors)
+  - [3.4 RL-Training](#34-rl-training)
 - [4. Imitation Learning](#4-imitation-learning)
 - [5. Large Language Models (LM)](#5-large-language-models-lm)
 
@@ -149,6 +150,16 @@ In this repository, I summarize all the aforementioned strategies, methods, benc
 **[ICRA 2024]** GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion, [[paper](http://arxiv.org/abs/2309.15459)]
 
 - ***Graspability Priors**.*
+
+### 3.4 RL-Training
+
+**[ICML 2018]** Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor, [[paper](http://arxiv.org/abs/2309.15459)] [[code](https://github.com/haarnoja/sac)]
+
+**[NeurIPS 2019]** Better Exploration with Optimistic Actor-Critic, [[paper](http://arxiv.org/abs/1910.12807)] [[code](https://github.com/microsoft/oac-explore)]
+
+**[ICLR 2020]** DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames, [[paper](https://arxiv.org/abs/1911.00357)] [[code](https://github.com/facebookresearch/habitat-api)]
+
+**[ICLR 2022]** Boosted Curriculum Reinforcement Learning, [[paper](https://openreview.net/pdf?id=anbBFlX1tJ1)] [[code](https://github.com/psclklnk/boosted_crl)]
 
 ## 4. Imitation Learning
 
