@@ -122,7 +122,7 @@ In this repository, I summarize all the aforementioned strategies, methods, benc
 
 **[WACV 2023]** Towards Disturbance-Free Visual Mobile Manipulation, [[paper](https://ieeexplore.ieee.org/document/10030790/)] [[code](https://github.com/allenai/disturb-free)] [[website](https://sites.google.com/view/disturb-free)]
 
-- Based on ManipulaTHOR, to play against the disturbance (i.e. a subset of collision, where an object is moved by some distance caused by a collision) problem, **incorporated a disturbance penalty into the reward** function in the RL and **utilized supervised learning to train a disturbance prediction** as an auxiliary task.
+- *Based on ManipulaTHOR, to address the disturbance (i.e. a subset of collision, where an object is moved by some distance caused by a collision) problem, **incorporated a disturbance penalty into the reward** function in the RL and **utilized supervised learning to train a disturbance prediction** as an auxiliary task.*
 
 **[ICRA 2023]** Robotic Table Wiping via Reinforcement Learning and Whole-body Trajectory Optimization, [[paper](https://ieeexplore.ieee.org/document/10161283)]
 
